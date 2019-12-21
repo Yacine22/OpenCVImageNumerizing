@@ -1,0 +1,19 @@
+#Yacine22
+
+import cv2 as cv
+import seaborn as sns
+import matplotlib.pylab as plt
+
+
+
+image = cv.imread("C:\\Users\\HP\\Pictures\\parame.jpg", 0) #import your image *Change folder, Choose 0 for black and white image
+print(image) #Print numeric forme of image * as matrix with image's dimensions
+resise = cv.resize(image,(12,12)) #edit image's dimensions to get readable matrix * numeric forme
+print(resise)
+cv.imshow("imag", resise)
+cv.waitKey(0) #push any key to close image's window
+cv.destroyAllWindows()
+fig, ax = sns.heatmap(resise, annot=True, fmt="d")
+im = ax.imshow(image)
+fig.tight_layout()
+plt.show()
