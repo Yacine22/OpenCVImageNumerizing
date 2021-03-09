@@ -10,5 +10,5 @@ Install **python 3.7** or any later vesion.
 ### Contouring 
 
 <div style="text-align : center ">
-<img src="" alt="front image" width="500"/>
+<img src="CannyF2 (1).png" alt="front image" width="500"/>
 </div>
